@@ -1,0 +1,13 @@
+# Скрываем конфиденциальные файлы
+.env
+.env.local
+.env.production
+
+# Файлы с данными (чтобы не попадали в репозиторий)
+*.json
+!requirements.txt
+!render.yaml
+
+# Python
+__pycache__/
+*.py[cod]
